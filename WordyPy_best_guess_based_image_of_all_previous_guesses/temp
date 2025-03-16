@@ -1,1 +1,4 @@
-
+The task is to make a best next guess. The function recieves an image of all the previous guesses made by the player (Player gets 5 chances to guess a five letter word). Each guess is in the new line in the image. 
+Therefore, based on the number of guesses there can be variable number of rows in the image (maximum upto 5)
+A function is written that first processes the image to extract the text from the image to identify the guesses made by the player. Use these guesses to modify the list of allowed words (to remove the words that can not be the target word) and make a guess.
+This code includes various image manipulation techniques.

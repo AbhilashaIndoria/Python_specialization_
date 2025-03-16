@@ -1,1 +1,2 @@
-
+This game is same as the wordypy_game_make_best_guess, but in place of returning a string as a feedback, the GameEngine returns an image as a feedback. The feedback image is color coded for each letter, blue represents the letter is in correct place, maize color represents the letter is in the word but not at a correct place and finally gray represents that the letter is not at all present in the word.
+The task of Bot instance is to process the image and modify the wordlist based on the feedback and make a guess.

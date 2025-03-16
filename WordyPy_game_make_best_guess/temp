@@ -1,3 +1,4 @@
+A target word is randomly chosen from a huge list of words, and the task is to see if the player can guess the target word in 6 chances.
 This game implements a Letter class (which has certain flags for each letter in the guessed word)
 A Bot class, where a Bot instance makes a guess from a text file containing the allowed words, keeps track of the previous guesses and updates the list of allowed words based on which it makes the best guess.
 A GameEngine class to play the game and returns a feedback to the Bot on the guessed word. (whether the letter in the guessed word is in correct position, whether the letter is present in word, whether the letter is in the word but at an incorrect position)
